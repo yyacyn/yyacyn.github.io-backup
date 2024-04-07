@@ -1,0 +1,189 @@
+body {
+    background: linear-gradient(to bottom left, #E27099 ,#e8abc1);
+    color: #E27099;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    background-image: url(Picture1.png);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: all 0.2 ease-in-out;
+}
+
+button {
+    width: 100%;
+    background-color: #E27099;
+    border: none;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Poppins;
+    color: white;
+    font-size: 13px;
+}
+
+.form-group > input {
+    padding: 8px;
+    font-family: Poppins;
+    font-size: 13px;
+}
+
+button:hover {
+    background-color: #E47CA1;
+    transition: all .2s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #E16994;
+    transition: all .2s ease-in-out;
+    transform: scale(1);
+}
+
+form > h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.form-group > label {
+    font-size: 15px;
+}
+
+.before {
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to left, #CFCFCF, #cfcfcf00) ;
+    display: block;
+    flex: 1;
+}
+
+.after {
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to right, #CFCFCF, #cfcfcf00) ;
+    display: block;
+    flex: 1;
+}
+
+.pemisah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.atau {
+    color: #CFCFCF;
+    font-size: 11px;
+}
+
+.facebook{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.google {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.logo {
+    max-width: 20px;
+}
+
+.reg-lain {
+    margin-top: -15px;
+    margin-bottom: -15px;
+
+}
+
+input {
+    border: 0px;
+    border-bottom: solid #e995b2 2px;
+    padding: 10px;
+    color: #E27099;
+    outline: 0;
+}
+
+.pilihan {
+    color: #CFCFCF;
+    font-size: 10px;
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -7px;
+}
+
+.sudah-punya {
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+.lupa-pass {
+    margin-left: auto;
+    margin-top: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #E16994;
+}
+
+::placeholder {
+    color: #CFCFCF;
+}
+
+p {
+    width: 100%;
+    background-color: #E27099;
+    border: none;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-family: Poppins;
+    color: white;
+    font-size: 13px;
+}
+
+p:hover {
+    background-color: #E47CA1;
+    transition: all .2s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+p:active {
+    background-color: #E16994;
+    transition: all .2s ease-in-out;
+    transform: scale(1);
+}
