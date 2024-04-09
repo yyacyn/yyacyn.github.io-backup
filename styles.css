@@ -30,6 +30,10 @@ article {
     margin-left: 150px;
 }
 
+.icon {
+    width: 50px;
+}
+
 /* section {
     background-size: cover;
     background-image: linear-gradient();
@@ -52,7 +56,7 @@ article {
     }
     
     .gato {
-        width: 100px;
+        width: 150px;
     }
 
     /* article {
