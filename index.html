@@ -17,16 +17,16 @@
 </head>
 
 <body class="bg-gray-900 text-md text-gray-100">
-    <header>
+    <header class="sticky top-0">
         <nav class="bg-gray-800 p-4 sticky">
             <div class="container flex items-center mx-auto justify-between">
-                <div class="headline flex items-center justify-start">
+                <div class="headline flex items-center justify-start mx-0 lg:mx-5">
                     <img src="catstare.jpg" alt="icon" class="icon rounded-full mr-3">
                     <a href="#" class="hidden lg:block">Yashin Al Fauzy Sabara</a>
                     <a href="#" class="lg:hidden">Yashin</a>
                 </div>
                 <div class="text-gray-100 justify-center">
-                    <ul class="flex">
+                    <ul class="flex mx-0 lg:mx-5">
                         <li class="navlinks px-2 lg:px-5 py-1 rounded-full">
                             <a href="#Home" class="" aria-current="page">Home</a>
                         </li>
@@ -34,7 +34,7 @@
                             <a href="projects.html" class="">Projects</a>
                         </li>
                         <li class="navlinks px-2 lg:px-5 py-1 rounded-full">
-                            <a href="" class="">Contact</a>
+                            <a href="contacs.html" class="">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -42,13 +42,13 @@
         </nav>
     </header>
 
-    <section class="py-16 flex justify-center items-center h-[700px]" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(1111.png); background-size: cover;">
+    <section class="py-16 flex justify-center items-center h-[700px] " style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(1111.png); background-size: cover;">
         
         <article class="home inline" id="Home">
             <div class="article-content">
                 <img src="catstare.jpg" alt="real picture of me" class="gato rounded-full lg:hidden mb-5 mx-auto">
                 <p class="text-xs lg:block lg:text-xl">Hi, my name is</p>
-                <h2 class="text-xs lg:block lg:text-4xl font-bold">Yashin Al Fauzy Sabara</h2><br>
+                <h1 class="text-xs lg:block lg:text-4xl font-bold">Yashin Al Fauzy Sabara</h1><br>
                 <p class="text-xs lg:block lg:text-base text-justify">As a student at IPB majoring in Software Engineering Technology with an interest in multimedia, web development and game development, I have high dedication to continue learning and developing skills in the latest technology. I believe that creativity, perseverance and teamwork are the keys to achieving success in this industry. I have experience in software and multimedia development projects, as well as expertise in programming and design. I am ready to contribute and learn more in a dynamic and innovative work environment.</p>
             </div>
         </article>
@@ -58,11 +58,85 @@
 
         </div>
     </section>
-    <section id="projects" class="">
-        <div class=""></div>
+    <section id="projects" class="mx-10 mt-10">
+        <div class="">
+            <h1 class="lg:text-4xl flex font-bold mb-2 justify-center text-gray-100">My Projects</h1>
+            <div class="h-1 w-20 rounded-full mx-auto bg-gray-100 mb-5"></div>
+            <div class="container grid lg:grid-cols-2 gap-8 mx-auto">
+    
+                <!-- Card Jurnalistik -->
+                <div class="bg-gray-800 p-6 rounded shadow">
+                    <div class="flex justify-center items-center gap-5">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Breaking Corrupt</h3>
+                            <p class="text-justify">A visual novel game made using Ren'Py game engine. This game follows a story about a detective trying to uncover a druglord that has been dealing and corrupting a small town in Alberqueue, New Mexico. </p>
+                        </div>
+                        <img class="hidden lg:block h-32 w-72"src="breakingcorrupt.png" alt="">
+                    </div>
+                    <div class="see-details bg-gray-900 hover:bg-slate-700  mt-2 h-10 py-3 flex items-center justify-center rounded-md" style="width: 150px; transition: ease-in-out 0.2s all;">
+                        <a href="projects.html" class="">
+                            <p class="text-gray-100">See details &RightArrow;</p>
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- Card Jurnalistik -->
+                <div class="bg-gray-800 p-6 rounded shadow">
+                    <div class="flex justify-center items-center gap-5">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Wibuotack</h3>
+                            <p class="text-justify">Wibuotack is the name of the group where I done my projects. The projects consist of two products, those are PowerPoint and Motion Graphics. The projects were done within 7 weeks and presented in a formal way to our 'client'.</p>
+                        </div>
+                        <img class="hidden lg:block h-32 w-72" src="mulmed.png" alt="">
+                    </div>
+                    <div class="see-details bg-gray-900 hover:bg-slate-700  mt-2 h-10 py-3 flex items-center justify-center rounded-md" style="width: 150px; transition: ease-in-out 0.2s all;">
+                        <a href="projects.html" class="">
+                            <p class="text-gray-100">See details &RightArrow;</p>
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- Card Jurnalistik -->
+                <div class="bg-gray-800 p-6 rounded shadow">
+                    <div class="flex justify-center items-center gap-5">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Safety Dojo Virtual Edtion</h3>
+                            <p class="text-justify">Safety Dojo Virtual Edition is the main project that I worked on during my highschool intern. Safety Dojo Virtual Edition is quiz program made in PowerPoint using Visual Basic macros with the purpose of training SOP to company's employees.</p>
+                        </div>
+                        <img class="hidden lg:block h-32 w-72" src="safetydojo.png" alt="">
+                    </div>
+                    <div class="see-details bg-gray-900 hover:bg-slate-700  mt-2 h-10 py-3 flex items-center justify-center rounded-md" style="width: 150px; transition: ease-in-out 0.2s all;">
+                        <a href="projects.html" class="">
+                            <p class="text-gray-100">See details &RightArrow;</p>
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- Card Jurnalistik -->
+                <div class="bg-gray-800 p-6 rounded shadow">
+                    <div class="flex justify-center items-center gap-5">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Epic Jump</h3>
+                            <p class="text-justify">Epic Jump is a 'non-official' game project that I made using Godot game engine. This game purpose for me as a someone who is starting to get into game development is to help me build and expand my knowledge about game development.</p>
+                        </div>
+                        <img class="hidden lg:block h-32 w-72" src="epicjump.png" alt="">
+                    </div>
+                    <div class="see-details bg-gray-900 hover:bg-slate-700  mt-2 h-10 py-3 flex items-center justify-center rounded-md" style="width: 150px; transition: ease-in-out 0.2s all;">
+                        <a href="projects.html" class="">
+                            <p class="text-gray-100">See details &RightArrow;</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="see-more bg-gray-800 mt-5 h-10 py-2 flex items-center justify-center mx-auto rounded-full" style="width: 150px; transition: ease-in-out 0.2s all;">
+                <a href="projects.html" class="">
+                    <p class="text-gray-100">See more &RightArrow;</p>
+                </a>
+            </div>
+        </div>
     </section>
 
-    <footer class="bg-gray-800 text-white py-4 text-center">
+    <footer class="bg-gray-800 text-white py-4 text-center mt-10">
         <div class="container items-center justify-center mx-auto">
             &copy; 2024 Yashin Al Fauzy. All Rights Reserved.
         </div>
